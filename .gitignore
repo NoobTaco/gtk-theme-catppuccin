@@ -1,0 +1,16 @@
+# Ignore build artifacts and system files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.cache/
+*.bak
+*.tmp
+
+# Ignore GTK theme previews and logs
+preview.png
+*.log
+
+# Ignore OS-specific files
+Icon?
