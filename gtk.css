@@ -66,6 +66,9 @@ based on the solarized dark colours from adw-colors: https://github.com/lassekon
 @define-color destructive_fg_color @crust;
 @define-color destructive_color @red;
 
+/* Menu Font color */
+@define-color menu_fg_color @text;
+
 :root {
   --accent-bg-color: @accent_bg_color;
   --accent-fg-color: @accent_fg_color;
@@ -126,4 +129,6 @@ based on the solarized dark colours from adw-colors: https://github.com/lassekon
 
   --thumbnail-bg-color: @thumbnail_bg_color;
   --thumbnail-fg-color: @thumbnail_fg_color;
+
+  --menu-fg-color: @menu_fg_color;
 }
